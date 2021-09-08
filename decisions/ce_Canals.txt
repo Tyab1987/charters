@@ -1,0 +1,63 @@
+country_decisions = {
+
+	construct_volga_don_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_vassal_of = 1971
+				}
+			}
+			has_discovered = 1971
+			1971 = {
+				range = ROOT
+				NOT = { has_great_project = volga_don_canal }
+				NOT = { has_construction = canal }
+			}
+			adm_tech = 20
+		}
+		allow = {
+			owns_or_vassal_of = 1971
+			is_subject = no			
+			adm_tech = 26
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			1971 = {
+				add_great_project = volga_don_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cancel_volga_don_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 1971
+			is_subject = no
+			1971 = {
+				has_construction = canal
+			}
+		}
+		allow = {
+			1971 = {
+				has_construction = canal
+			}
+		}
+		effect = {
+			1971 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}
