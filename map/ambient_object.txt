@@ -3362,4 +3362,25 @@
 			}
 		}
 	}
-	
+	type=
+	{
+		type="erie_canal"
+		use_animation=no
+		scale=0
+		time_duration=300.000000
+		always_visible=no
+		visible_in_all_map_modes=no
+		object=
+		{
+			name="erie_canal"
+			hidden_on_start=yes
+			position=
+			{
+				0.000 0.000 0.000
+			}
+			rotation=
+			{
+				0.000 0.000 0.000 
+			}
+		}
+	}

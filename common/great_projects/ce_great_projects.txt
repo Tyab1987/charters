@@ -8,3 +8,14 @@ volga_don_canal = {
 		province_trade_power_value = 20
 	}
 }
+
+erie_canal = {
+	ambient_object = erie_canal
+	province = 965 #Manhattan
+	is_canal = yes
+	time = 180 #15 years
+	
+	modifier = {
+		# Modifiers added via event
+	}	
+}

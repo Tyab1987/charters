@@ -6,3 +6,13 @@
  great_project_volga_don_canal:0 "Volga-Don canal"
  volga_don_canal:0 "Volga-Don canal"
  volga_don_canal_title:0 "Build Volga-Don canal"
+ great_project_erie_canal:0 "Erie canal"
+ erie_canal:0 "Erie canal"
+ erie_canal_title:0 "Build Erie canal"
+ # Modifiers
+ desc_erie_canal_east_mod:0 "Goods flow to and from the Midwest through here"
+ erie_canal_east_mod:0 "Erie Canal"
+ desc_erie_canal_west_mod:0 "Goods, tourists, businessmen and settlers flow through here"
+ erie_canal_west_mod:0 "Erie Canal"
+ desc_nyc_trade_hub:0 "The canal's completion caused an economic boom in this province"
+ nyc_trade_hub:0 "Erie Canal"

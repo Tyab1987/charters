@@ -1,3 +1,9 @@
 ﻿l_english:
  construct_volga_don_canal_title:0 "Construct the Volga-Don Canal"
  construct_volga_don_canal_desc:0 "Cutting a canal between the Volga and Don rivers to connect the Sea of Azov and the Caspian Sea is a truly mammoth task that once completed will let our ships reach new areas. But the project is very expensive and may run into additional problems along the way..."
+ cancel_volga_don_canal_title:0 "Cancel Volga-Don Canal"
+ cancel_volga_don_canal_desc:0 "Our project to construct the Volga-Don canal has been deemed too costly and will be canceled."
+ construct_erie_canal_title:0 "Construct the Erie Canal"
+ construct_erie_canal_desc:0 "Cutting a canal across New York to connect the Great Lakes and the Atlantic is a truly mammoth task that once completed will let our ships reach new areas. But the project is very expensive and may run into additional problems along the way..."
+ cancel_erie_canal_title:0 "Cancel Erie Canal"
+ cancel_erie_canal_desc:0 "Our project to construct the Erie canal has been deemed too costly and will be canceled."

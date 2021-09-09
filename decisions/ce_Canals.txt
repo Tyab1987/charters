@@ -20,7 +20,7 @@ country_decisions = {
 		}
 		allow = {
 			owns_or_vassal_of = 1971
-			is_subject = no			
+			is_subject = no
 			adm_tech = 26
 			treasury = 10000
 		}
@@ -60,4 +60,76 @@ country_decisions = {
 		}
 	}
 	
+	construct_erie_canal = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				AND = {
+					treasury = 40000
+					owns_or_vassal_of = 965
+				}
+			}
+			has_discovered = 965
+			965 = {
+				range = ROOT
+				NOT = { has_great_project = erie_canal }
+				NOT = { has_construction = canal }
+			}
+			adm_tech = 20
+		}
+		allow = {
+			owns_or_vassal_of = 965
+			owns_or_vassal_of = 958
+			owns_or_vassal_of = 959
+			owns_or_vassal_of = 960
+			owns_or_vassal_of = 961
+			owns_or_vassal_of = 963
+			owns_or_vassal_of = 964
+			owns_or_vassal_of = 965
+			owns_or_vassal_of = 2558
+			owns_or_vassal_of = 7575
+			owns_or_vassal_of = 7577
+			owns_or_vassal_of = 7578
+			is_subject = no
+			adm_tech = 26
+			treasury = 40000
+			is_year = 1800
+		}
+		effect = {
+			add_treasury = -40000
+			965 = {
+				add_great_project = erie_canal
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cancel_erie_canal = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 965
+			is_subject = no
+			965 = {
+				has_construction = canal
+			}
+		}
+		allow = {
+			965 = {
+				has_construction = canal
+			}
+		}
+		effect = {
+			965 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }

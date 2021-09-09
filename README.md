@@ -7,9 +7,11 @@ Therefore, most features are completely arbitrary!
 -Everything except colonial nations is in a trade company now
 -Caspian Sea is navigable
 -The Volga is navigable
--You can build the anachronistic Volga-Don canal
--Vistula Lagoon unlocked
+-You can build the Volga-Don canal
+-You can no longer jump the Niagara Falls
+-You can build the Erie Canal
 -Great Lakes are now considered inland seas
+-Vistula Lagoon unlocked
 
 •Current issues
 -South Atlantic and Indian Ocean islands do not belong to any TC nor CN
@@ -39,8 +41,7 @@ Nicaragua Canal: from an engineering standpoint, better than the Panama Canal, a
 provides a buffer for the different sea levels, so no floodgates would have been needed. Historically,
 it was the first choice for linking the Atlantic and Pacific, but was not made due to political
 instability in the region
-Erie Canal: needed since you won't be able to cross the Niagara Falls to access the Great Lakes
-Illinois and Michigan Canal: access to the Great lakes... but from the Mississipi!
+Illinois and Michigan Canal: more access to the Great lakes, this time from the Mississipi
 Grand Canal: the Yuan-dynasty Beijing–Hangzhou one. Since it already existed in 1444, I'd
 implement it as yet another navigable river, provided Yangtze and Yellow River are there
 Canal du Midi: important and time-appropriate. Might need a navigable Garonne to look good
@@ -89,3 +90,4 @@ Here is a full guide:
 
 
 Rivers can't split off and then become a tributaries.
+Rivers with the green starting point can't become tributaries.
