@@ -7,6 +7,8 @@ Therefore, most features are completely arbitrary!
 -Everything except colonial nations is in a trade company now
 -Caspian Sea is navigable
 -You can build the anachronistic Volga-Don canal
+-Vistula Lagoon unlocked
+-Great Lakes are now considered inland seas
 
 •Current issues
 -South Atlantic and Indian Ocean islands do not belong to any TC nor CN
@@ -19,9 +21,6 @@ This could be fixed by making the Volga into sea tiles
 This mod makes no sense. I don't promise it will ever make sense.
 Below I ramble lenghtly what I'd have to add in order for it to make sense.
 These are more than anything personal notes and not an interesting read.
-
--More tiles to the Caspian Sea
-The current, singular tile is too big!
 
 -Navigable rivers
 I've seen this feature in a lot of mods and I'm in love with it!

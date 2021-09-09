@@ -1821,12 +1821,6 @@ mediterrenean_region = {
 	}
 }
 
-caspian_region = {
-	areas = {
-		caspian_sea_area
-	}
-}
-
 caribbean_sea_region = {
 	areas = {
 		bahama_channel_area
@@ -2030,5 +2024,12 @@ suomi_region = {
 unused_region = {
 	areas = {
 		unused_area
+	}
+}
+
+#CE regions
+caspian_sea_region = {
+	areas = {
+		caspian_sea_area
 	}
 }

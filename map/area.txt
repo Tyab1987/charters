@@ -5,7 +5,7 @@
 #No restriction on size.
 
 caspian_sea_area = {
-	1326
+	1326 7810 7811 7812
 }
 
 western_mediterrenean_area = {
@@ -21,7 +21,7 @@ black_sea_area = {
 }
 
 baltic_area = {
-	1252 1253 1254 1255 1256 1257 1926 1927
+	1252 1253 1254 1255 1256 1257 1926 1927 4235
 }
 
 kattegat_area = { #Kattegat, Skagerrak, Sound and Belts

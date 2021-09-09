@@ -1,0 +1,8 @@
+﻿l_english:
+ # Typus-style colony bonuses
+ COL_MERCH_BONUS_SMALL:0 "This colonial nation must control at least 50 development to provide us with a bonus merchant."
+ COL_MERCH_BONUS:0 "Provides us with a bonus merchant, as it has at least 50 development."
+ # Canals
+ great_project_volga_don_canal:0 "Volga-Don canal"
+ volga_don_canal:0 "Volga-Don canal"
+ volga_don_canal_title:0 "Build Volga-Don canal"
