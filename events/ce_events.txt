@@ -1,0 +1,39 @@
+namespace = ce_events
+
+# Finish Canal Cheat Code
+province_event = {
+	id = ce_events.1
+	title = "ce_events.1.t"
+	desc = "ce_events.1.d"
+	goto = root
+	is_triggered_only = yes
+
+	option = {
+		name = "ce_events.1.a"
+		add_construction_progress = 1
+	}
+}
+
+# Volga-Don Canal Finished
+province_event = {
+	id = ce_events.2
+	title = "ce_events.2.t"
+	desc = "ce_events.2.d"
+	picture = HARBOUR_eventPicture
+	goto = root
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_great_project = volga_don_canal
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "canal_events.25.a"
+		owner = { add_prestige = 20 }
+	}
+}

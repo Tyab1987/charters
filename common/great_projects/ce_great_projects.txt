@@ -2,7 +2,7 @@ volga_don_canal = {
 	ambient_object = volga_don_canal
 	province = 1971
 	is_canal = yes
-	time = 60
+	time = 120
 	
 	modifier = {
 		province_trade_power_value = 20

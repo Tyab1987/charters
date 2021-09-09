@@ -5,7 +5,7 @@
 #No restriction on size.
 
 caspian_sea_area = {
-	1326 7810 7811 7812
+	1326 7810 7811 7812 7813 7814
 }
 
 western_mediterrenean_area = {

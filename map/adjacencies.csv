@@ -270,7 +270,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 989;7573;sea;1659;-1;-1;-1;-1;Cataraqui-Oswego
 1248;5705;sea;1619;-1;-1;-1;-1;Maldives-Seenu
 #CE stuff
-1323;1326;canal;1971;-1;-1;-1;-1;volga_don_canal
+1323;7814;canal;1971;-1;-1;-1;-1;volga_don_canal
+464;3526;sea;7813;-1;-1;-1;-1;Hajitarkhan-Qumózek
+3518;3526;sea;7813;-1;-1;-1;-1;Lagansky-Qumózek
 439;2349;sea;7811;-1;-1;-1;-1;Mangyshlak-Kizil-Su
 43;7773;sea;4235;-1;-1;-1;-1;Danzig-Samland
 ;;sea;;-1;-1;-1;-1;
